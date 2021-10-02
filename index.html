@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main id="conteudo">
+        <h1>Calculadora</h1>
+        <hr>
+
+        <div class="calculo">
+            <input type="number" name="txt1" id="numero1" placeholder="N°1">
+            <input type="number" name="txt2" id="numero2" placeholder="N°2">
+        </div >  
+          <div class="botao">
+              
+                <button onclick="somar()">+</button>
+                <button onclick="subtrair()">-</button>
+                <button onclick="dividir()">/</button>
+                <button onclick="multiplicar()">X</button>
+                <button onclick="limpar()">limpar</button>
+          </div>
+         
+       <div id="res">
+           Resultado: 
+       </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
